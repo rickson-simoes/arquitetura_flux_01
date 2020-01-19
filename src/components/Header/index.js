@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container } from './styles';
-
-import Cart from '../../pages/Cart';
+import { MdShoppingBasket } from 'react-icons/md';
+import { Container, Cart } from './styles';
 import logo from '../../assets/images/logo.svg';
 
 export default function Header() {
@@ -17,6 +16,8 @@ export default function Header() {
           <strong>Meu Carrinho</strong>
           <span> 3 itens </span>
         </div>
+
+        <MdShoppingBasket size={36} color="#FFF" />
       </Cart>
     </Container>
   );
