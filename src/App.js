@@ -8,8 +8,8 @@ import Routes from './routes';
 function App() {
   return (
     <BrowserRouter>
-      <Routes />
       <Header />
+      <Routes />
       <GlobalStyle />
     </BrowserRouter>
   );
