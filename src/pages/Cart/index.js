@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, ProductTable, Total } from './styles';
 
 export default function Cart() {
   return (
@@ -9,6 +9,9 @@ export default function Cart() {
         <thead>
           <tr>
             <th />
+            <th>PRODUTO</th>
+            <th>QTD</th>
+            <th>SUBTOTAL</th>
             <th />
           </tr>
         </thead>
