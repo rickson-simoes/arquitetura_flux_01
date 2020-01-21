@@ -1,6 +1,12 @@
 import React from 'react';
+import {
+  MdRemoveCircleOutline,
+  MdAddCircleOutline,
+  MdDelete,
+} from 'react-icons/md';
 
 import { Container, ProductTable, Total } from './styles';
+import vizzano from '../../assets/images/img/vizzano.jpg';
 
 export default function Cart() {
   return (
@@ -15,6 +21,39 @@ export default function Cart() {
             <th />
           </tr>
         </thead>
+
+        <tbody>
+          <tr>
+            <td>
+              <img src={vizzano} alt="tenis" />
+            </td>
+
+            <td>
+              <strong>Tenis muito massa</strong>
+              <span>R$129,90</span>
+            </td>
+
+            <td>
+              <button type="button">
+                <MdRemoveCircleOutline size={20} color="##7159C1" />
+              </button>
+              <input type="number" readOnly value={1} />
+              <button type="button">
+                <MdAddCircleOutline size={20} color="##7159C1" />
+              </button>
+            </td>
+
+            <td>
+              <strong>R$259,80</strong>
+            </td>
+
+            <td>
+              <button type="button">
+                <MdDelete size={20} color="#7159c1" />
+              </button>
+            </td>
+          </tr>
+        </tbody>
       </ProductTable>
 
       <footer>
