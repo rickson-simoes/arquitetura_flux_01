@@ -6,7 +6,6 @@ import {
 } from 'react-icons/md';
 
 import { Container, ProductTable, Total } from './styles';
-import vizzano from '../../assets/images/img/vizzano.jpg';
 
 export default function Cart() {
   return (
@@ -25,7 +24,7 @@ export default function Cart() {
         <tbody>
           <tr>
             <td>
-              <img src={vizzano} alt="tenis" />
+              <img src="" alt="tenis" />
             </td>
 
             <td>
