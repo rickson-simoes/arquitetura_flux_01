@@ -34,13 +34,17 @@ export default function Cart() {
             </td>
 
             <td>
-              <button type="button">
-                <MdRemoveCircleOutline size={20} color="##7159C1" />
-              </button>
-              <input type="number" readOnly value={1} />
-              <button type="button">
-                <MdAddCircleOutline size={20} color="##7159C1" />
-              </button>
+              <div>
+                <button type="button">
+                  <MdRemoveCircleOutline size={20} color="##7159C1" />
+                </button>
+
+                <input type="number" readOnly value={1} />
+
+                <button type="button">
+                  <MdAddCircleOutline size={20} color="##7159C1" />
+                </button>
+              </div>
             </td>
 
             <td>
