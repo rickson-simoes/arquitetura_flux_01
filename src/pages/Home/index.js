@@ -9,8 +9,8 @@ export default class Home extends Component {
     products: [],
   };
 
-  componentDidMount() {
-    const response = api.get('/products');
+  async componentDidMount() {
+    const response = await api.get('products');
 
     this.setState({ products: response.data });
   }
