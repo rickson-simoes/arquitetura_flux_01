@@ -1,7 +1,8 @@
-[Create React App](https://github.com/facebook/create-react-app).
+Criado com [Create React App](https://github.com/facebook/create-react-app).
 
 
-# Arquitetura FLUX utilizando REDUX (Projeto em andamento)
+# Arquitetura FLUX utilizando REDUX
+Projeto em andamento
 
 ### Para executar o projeto `yarn start`
 
