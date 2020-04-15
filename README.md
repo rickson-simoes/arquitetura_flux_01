@@ -1,6 +1,6 @@
 Criado com [Create React App](https://github.com/facebook/create-react-app).
 
-
+# Projeto descontinuado
 # Arquitetura FLUX utilizando REDUX
 Projeto em andamento
 
